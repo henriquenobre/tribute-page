@@ -32,3 +32,10 @@ body{
 #lista{
     text-align: start;
 }
+
+@media (max-width: 564px){
+    img{
+       height: 30px;
+       width: 30px;
+    }
+}
