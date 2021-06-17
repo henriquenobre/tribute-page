@@ -33,9 +33,17 @@ body{
     text-align: start;
 }
 
-@media (max-width: 564px){
-    img{
-       height: 30px;
-       width: 30px;
-    }
+@media (max-width: 600px) {
+  img{
+      width: 400px;
+      height: 300px;
+  }
+  #tribute-info{
+      margin-left: 6%;
+      margin-right: 6%;
+  }
+  #lista{
+      margin-top: 60px;
+  }
+
 }
