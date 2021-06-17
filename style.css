@@ -33,14 +33,14 @@ body{
     text-align: start;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 675px) {
   img{
-      width: 400px;
-      height: 300px;
+      width: 300px;
+      height: 200px;
   }
   #tribute-info{
-      margin-left: 6%;
-      margin-right: 6%;
+      margin-left: 3%;
+      margin-right: 3%;
   }
   #lista{
       margin-top: 60px;
