@@ -43,17 +43,20 @@ body{
     #title{
         font-size: 1.5rem;
     }
+    h2{
+        font-size: 1rem;
+    }
     #tribute-info{
         margin-left: -5%;
         margin-right: -5%;
     }
     #lista{
         margin-top: 60px;
-        margin-left: -5%;
-        margin-right: 2%;
+        margin-left: -3%;
+        margin-right: 6%;
     }
   }
-  h5{
+  h3{
       font-size: 1rem;
   }
 
