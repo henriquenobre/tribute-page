@@ -49,6 +49,9 @@ body{
     }
     #lista{
         margin-top: 60px;
+        margin-left: -5%;
+        margin-right: 2%;
+    }
   }
   h5{
       font-size: 1rem;
