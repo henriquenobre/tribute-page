@@ -44,7 +44,7 @@ body{
         font-size: 1.5rem;
     }
     h2{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     #tribute-info{
         margin-left: -5%;
@@ -53,7 +53,7 @@ body{
     #lista{
         margin-top: 60px;
         margin-left: -3%;
-        margin-right: 6%;
+        margin-right: 10%;
     }
   }
   h3{
