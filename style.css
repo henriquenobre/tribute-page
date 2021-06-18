@@ -33,7 +33,7 @@ body{
     text-align: start;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 665px) {
     #main{
         margin: 0;
     }
