@@ -33,7 +33,7 @@ body{
     text-align: start;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 460px) {
     #main{
         margin: 0;
     }
@@ -41,11 +41,11 @@ body{
         max-width: 100%;
     }
     #title{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     #tribute-info{
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: -5%;
+        margin-right: -5%;
     }
     #lista{
         margin-top: 60px;
