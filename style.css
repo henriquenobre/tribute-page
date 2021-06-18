@@ -34,16 +34,24 @@ body{
 }
 
 @media (max-width: 675px) {
-  img{
-      width: 300px;
-      height: 200px;
+    #main{
+        margin: 0;
+    }
+    img{
+        max-width: 100%;
+    }
+    #title{
+        font-size: 1.7rem;
+    }
+    #tribute-info{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #lista{
+        margin-top: 60px;
   }
-  #tribute-info{
-      margin-left: 3%;
-      margin-right: 3%;
-  }
-  #lista{
-      margin-top: 60px;
+  h5{
+      font-size: 1rem;
   }
 
 }
