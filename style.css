@@ -12,43 +12,90 @@ body{
     text-align: center;
     color: #333;
     margin: 0;
+    background: #5C4A2C;
 }
 
 #main{
     margin: 30px 8px;
     padding: 15px;
+    color: #E6B86E;
 }
 #subtitle{
-    font-size: 1rem;
+    font-size: 1.4rem;
+
 }
 
+/* As divs tem fundo branco, box-shadow para dar efeito da sombra, border-radius para arredondar
+    margins para acertar o tamanho, max-widdt para a imagens ficar do tamanho do navegador*/
+#img-div{
+    color: black;
+    background-color:white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+}
+
+#image{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
+    padding: none;
+    border: none;
+    max-width: 95%;
+}
 #tribute-info{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: 50px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
+    padding: 5px;
+    border-radius: 20px;
 }
 
 #lista{
     text-align: start;
 }
 
+#tribute-link{
+    color: black;
+    background-color:white;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#tribute-link:hover{
+    background-color: #FBE6C4;
+}
+
+#tribute-link:active{
+    background-color: black;
+}
+
+
+/* para adaptar ao tamanho no celular usa um meta no html no header*/ 
 @media (max-width: 665px) {
     #main{
         margin: 0;
     }
-    img{
-        max-width: 100%;
-    }
+
     #title{
         font-size: 1.5rem;
     }
+    #subtitle{
+        font-size: 1.2rem;
+    }
     h2{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     #tribute-info{
-        margin-left: -5%;
-        margin-right: -5%;
+  
     }
     #lista{
         margin-top: 60px;
